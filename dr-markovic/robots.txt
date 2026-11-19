@@ -1,0 +1,4 @@
+# DEMO: dok je sajt demo, pretrazivaci ga ne indeksiraju.
+# Kada ide uzivo, zameni sa: Allow: / i Sitemap: https://www.vasdomen.rs/sitemap.xml
+User-agent: *
+Disallow: /

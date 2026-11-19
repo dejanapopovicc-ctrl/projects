@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# ZAMENI: ukloniti Disallow kada sajt ode uzivo

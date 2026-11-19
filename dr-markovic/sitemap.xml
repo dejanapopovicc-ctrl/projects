@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ZAMENI: vasdomen.rs sa pravim domenom -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.vasdomen.rs/index.html</loc></url>
+  <url><loc>https://www.vasdomen.rs/usluge.html</loc></url>
+  <url><loc>https://www.vasdomen.rs/hitni-slucajevi.html</loc></url>
+  <url><loc>https://www.vasdomen.rs/o-nama.html</loc></url>
+  <url><loc>https://www.vasdomen.rs/faq.html</loc></url>
+  <url><loc>https://www.vasdomen.rs/kontakt.html</loc></url>
+</urlset>
