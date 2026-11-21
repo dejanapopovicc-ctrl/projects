@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Calm Harbour Counselling (demo site)</title>
+<meta name="description" content="Demo site: a calm, bookable website for a counselling practice. Fictional practice, built as a sample.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What happens in the first session?","acceptedAnswer":{"@type":"Answer","text":"We talk about what brings you here and what you would like to change. There is no pressure to share more than you want to, and you decide whether we continue."}},
+{"@type":"Question","name":"Can I cancel or reschedule?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use the link in your confirmation message to move or cancel your session up to 24 hours before it starts."}},
+{"@type":"Question","name":"Are sessions online or in person?","acceptedAnswer":{"@type":"Answer","text":"Both are possible. You choose when you book."}}
+]}
+</script>
+</head>
+<body>
+<a class="skip" href="#booking">Skip to booking</a>
+
+<header class="top">
+  <a class="brand" href="#top" aria-label="Calm Harbour Counselling, home">Calm Harbour</a>
+  <span class="tag">Demo site</span>
+  <a class="btn btn-small" href="#booking">Book</a>
+</header>
+
+<main id="top">
+
+  <section class="hero" aria-labelledby="h1">
+    <div class="orb" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="eyebrow">Counselling, online or in person</p>
+      <h1 id="h1">Therapy that fits your week</h1>
+      <p class="sub">Book a time that works for you, get a confirmation straight away and a reminder on the day.</p>
+      <a class="btn" href="#booking">Book a free 20-min consultation</a>
+      <p class="breath" aria-hidden="true"><span id="breathText">Breathe in</span></p>
+    </div>
+  </section>
+
+  <section class="section" id="services" aria-labelledby="h-services">
+    <div class="wrap">
+      <p class="eyebrow">Sessions</p>
+      <h2 id="h-services">Choose what feels right</h2>
+      <div class="cards">
+        <article class="card">
+          <svg class="ill" viewBox="0 0 120 90" aria-hidden="true"><rect x="12" y="14" width="62" height="40" rx="18" fill="#E8EEF9"/><rect x="46" y="34" width="62" height="40" rx="18" fill="#6B8FD6"/><path d="M60 70l-10 14 20-6z" fill="#6B8FD6"/></svg>
+          <h3>Initial consultation</h3>
+          <p class="meta">20 min &middot; Free</p>
+          <p>A short, relaxed chat to see if we are a good fit.</p>
+          <a class="btn btn-ghost" href="#booking">Book</a>
+        </article>
+        <article class="card">
+          <svg class="ill" viewBox="0 0 120 90" aria-hidden="true"><circle cx="48" cy="30" r="14" fill="#6B8FD6"/><path d="M24 80c0-20 10-30 24-30s24 10 24 30z" fill="#6B8FD6"/><path d="M92 80V58m0 0c-12 0-14-10-14-16 10 0 14 6 14 16zm0 0c12 0 14-10 14-16-10 0-14 6-14 16z" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Individual session</h3>
+          <p class="meta">50 min &middot; $90</p>
+          <p>One-to-one time, at your pace, online or in person.</p>
+          <a class="btn btn-ghost" href="#booking">Book</a>
+        </article>
+        <article class="card">
+          <svg class="ill" viewBox="0 0 120 90" aria-hidden="true"><circle cx="48" cy="45" r="28" fill="#E8EEF9"/><circle cx="72" cy="45" r="28" fill="#6B8FD6" fill-opacity=".75"/><path d="M60 8c-4 6-4 10 0 14 4-4 4-8 0-14z" fill="#111827"/></svg>
+          <h3>Couples session</h3>
+          <p class="meta">80 min &middot; $140</p>
+          <p>Space to listen to each other and move forward together.</p>
+          <a class="btn btn-ghost" href="#booking">Book</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tint" aria-labelledby="h-how">
+    <div class="wrap">
+      <p class="eyebrow">How it works</p>
+      <h2 id="h-how">Three simple steps</h2>
+      <ol class="steps">
+        <li><span class="num">1</span><h3>Book</h3><p>Pick a service and a time, any hour of the day.</p></li>
+        <li><span class="num">2</span><h3>Get confirmed</h3><p>A confirmation arrives by text and email, plus a reminder on the day.</p></li>
+        <li><span class="num">3</span><h3>Show up</h3><p>Come as you are. Need to change plans? One link does it.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="receives" aria-labelledby="h-receives">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">What your client receives</p>
+        <h2 id="h-receives">Try the booking flow</h2>
+        <p class="lead">Three taps, then watch the messages arrive. This is a simulation for this demo. The real booking is further down.</p>
+
+        <div class="flow" id="flow">
+          <fieldset class="flow-step" data-step="1">
+            <legend>1. Pick a session</legend>
+            <div class="chips" id="serviceChips">
+              <button class="chip" type="button" data-value="Initial consultation">Initial consultation</button>
+              <button class="chip" type="button" data-value="Individual session">Individual session</button>
+              <button class="chip" type="button" data-value="Couples session">Couples session</button>
+            </div>
+          </fieldset>
+          <fieldset class="flow-step" data-step="2" disabled>
+            <legend>2. Pick a time</legend>
+            <div class="chips" id="timeChips">
+              <button class="chip" type="button" data-value="Thu 4 Dec, 10:00">Thu 10:00</button>
+              <button class="chip" type="button" data-value="Thu 4 Dec, 14:30">Thu 14:30</button>
+              <button class="chip" type="button" data-value="Fri 5 Dec, 09:00">Fri 09:00</button>
+            </div>
+          </fieldset>
+          <div class="flow-step" data-step="3">
+            <p class="legend">3. Confirm</p>
+            <button class="btn" type="button" id="confirmBtn" disabled>Confirm booking</button>
+            <button class="link" type="button" id="resetBtn" hidden>Try again</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone" id="phone" aria-label="Simulated phone">
+          <div class="notch" aria-hidden="true"></div>
+          <div class="screen">
+            <p class="sim">Simulated</p>
+            <div class="msgs" id="msgs" aria-live="polite">
+              <p class="empty" id="empty">Messages will appear here after you confirm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tint" aria-labelledby="h-about">
+    <div class="wrap about">
+      <div class="portrait" role="img" aria-label="Placeholder for the therapist portrait"><span>E</span></div>
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 id="h-about">Hi, I'm Elena</h2>
+        <p>Elena is a fictional counsellor created for this demo. A short, warm introduction like this helps a new client feel at ease before they book: who you are, who you work with and what a first session feels like.</p>
+        <p class="note">Sample text only. No real person, credentials or client stories.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="booking" aria-labelledby="h-booking">
+    <div class="wrap">
+      <p class="eyebrow">Booking</p>
+      <h2 id="h-booking">Book your session</h2>
+      <p class="lead">Real online booking with a text and email confirmation and a reminder on the day. This is a test calendar for the demo.</p>
+      <div class="embed">
+        <script src="https://square.site/appointments/buyer/widget/7lc9k0iom2ve7e/LS7ARZJ1T80QR.js"></script>
+        <p class="fallback">Calendar not loading? <a href="https://app.squareup.com/appointments/book/7lc9k0iom2ve7e/LS7ARZJ1T80QR/start" rel="noopener" target="_blank">Open the booking page</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tint" aria-labelledby="h-faq">
+    <div class="wrap narrow">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="h-faq">Good to know</h2>
+      <details><summary>What happens in the first session?</summary><p>We talk about what brings you here and what you would like to change. There is no pressure to share more than you want to, and you decide whether we continue.</p></details>
+      <details><summary>Can I cancel or reschedule?</summary><p>Yes. Use the link in your confirmation message to move or cancel your session up to 24 hours before it starts.</p></details>
+      <details><summary>Are sessions online or in person?</summary><p>Both are possible. You choose when you book.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p><strong>Demo site.</strong> Calm Harbour Counselling is a fictional practice. Please do not enter health details in any form or message.</p>
+  <p>Built as a sample by Presnd.</p>
+</footer>
+
+<a class="sticky-cta btn" id="stickyCta" href="#booking">Book a free consultation</a>
+
+<script src="script.js"></script>
+</body>
+</html>
