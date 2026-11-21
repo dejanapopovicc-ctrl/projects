@@ -9,5 +9,6 @@ Demo sajtovi, svaki u svom folderu. Objavljeno na https://dejanapopovicc-ctrl.gi
 - `kafana-one/`, `kafana-v3/` kafana
 - `vulkanizer-one/` vulkanizer
 - `kiku-digital/` portfolio
+- `calm-harbour-demo/` terapeutski sajt (US demo, engleski, noindex)
 
 Dizajn svakog sajta: `design-log.md`.
