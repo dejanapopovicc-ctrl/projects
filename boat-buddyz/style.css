@@ -57,3 +57,18 @@ input:focus,select:focus,a:focus-visible,.btn:focus-visible{outline:3px solid #7
 @media(max-width:640px){nav a:not(.cta){display:none}.logo span{font-size:13px}.facts{flex-direction:column;gap:10px}.facts li{padding-top:8px}.hero{min-height:620px}.hero::after{background:linear-gradient(0deg,rgba(11,42,54,.92) 20%,rgba(11,42,54,.3))}.qf{grid-template-columns:1fr}.f:nth-child(n){grid-column:1/-1}
 .stk{display:block;position:fixed;left:16px;right:16px;bottom:14px;z-index:30;background:var(--teal);color:#fff;text-align:center;text-decoration:none;font:600 17px "Work Sans";padding:15px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.28);transition:transform .25s}.stk.off{transform:translateY(120px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+.lead{max-width:30em;color:#3d535b;margin:-28px 0 28px}
+.wk{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:32px}
+.wc{margin:0}.wc img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;display:block;background:var(--foam)}
+.wc b{display:block;font:800 16px Archivo;color:var(--ink);margin-top:8px}.wc span{font-size:14px;color:var(--slate)}
+.mg{background:var(--foam)}.mgw{max-width:560px;padding-top:24px;padding-bottom:60px}.mgw h1{color:var(--ink);font-size:34px;margin:8px 0}.mgw h2{font-size:22px;margin:36px 0 12px}.mgw>p{color:#3d535b}
+.back{color:var(--teal);font-weight:600;text-decoration:none}
+.mf{display:grid;gap:16px;background:#fff;padding:18px;border-radius:12px;margin-top:18px}
+.mf .ph{display:flex;align-items:center;justify-content:center;min-height:180px;border:2px dashed var(--teal);border-radius:10px;color:var(--teal);font-weight:600;cursor:pointer;overflow:hidden;text-align:center;padding:10px}
+.mf .ph img{width:100%;max-height:300px;object-fit:cover}
+.mf .btn{width:100%;font-size:18px;padding:16px}
+.jl{list-style:none;margin:0;padding:0;display:grid;gap:10px}.jl li{display:flex;gap:12px;align-items:center;background:#fff;border-radius:10px;padding:10px}
+.jl img{width:72px;height:54px;object-fit:cover;border-radius:6px}.jl div{flex:1;font-size:15px}.jl b{display:block;color:var(--ink)}
+.jl button{border:0;background:none;color:#a33;font:600 14px "Work Sans";padding:10px;cursor:pointer}
+.dk{margin-top:20px;color:var(--ink);border-color:var(--ink)}
+@media(max-width:899px){.wk{grid-template-columns:1fr 1fr}}
