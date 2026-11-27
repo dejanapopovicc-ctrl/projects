@@ -13,5 +13,6 @@ Demo sajtovi, svaki u svom folderu. Objavljeno na https://dejanapopovicc-ctrl.gi
 
 - `breath-berlin/` (v2) i `breath-berlin-v1/` breathwork terapeut Berlin (EN demo, noindex)
 - `boat-buddyz/` mobilno održavanje brodova, Perth (EN demo, noindex)
+- `done-today/` zadaci istog dana, Winchester (EN demo, noindex)
 
 Dizajn svakog sajta: `design-log.md`.
