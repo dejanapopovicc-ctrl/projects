@@ -24,7 +24,7 @@ h1{font-weight:800;font-size:clamp(42px,6vw,76px)}
 .list i{width:20px;height:20px;border:2px solid var(--ink);border-radius:5px;position:relative;flex:none;transition:background .2s}
 .list li.on i{background:var(--g);border-color:var(--g)}.list li.on i::after{content:"";position:absolute;left:5px;top:1px;width:5px;height:10px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(40deg)}
 .list li.on{color:#555;text-decoration:line-through;text-decoration-color:var(--g)}
-.list .dn{display:none;color:var(--g);font:800 22px Barlow;text-decoration:none}.list .dn.on{display:block}
+.list .dn{display:none}.list li.dn.on{display:block;color:var(--g);font:800 22px Barlow;text-decoration:none}
 .sec{padding:92px 0}.sec.alt{background:var(--soft)}.sec h2{font-weight:800;font-size:clamp(34px,4.6vw,56px);max-width:12em;margin-bottom:40px}
 .bento{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
 .tl{position:relative;border-radius:10px;overflow:hidden;border:2px solid var(--ink);min-height:300px;grid-column:span 2}.tl.t-l{grid-column:span 2;grid-row:span 1}
