@@ -11,4 +11,7 @@ Demo sajtovi, svaki u svom folderu. Objavljeno na https://dejanapopovicc-ctrl.gi
 - `kiku-digital/` portfolio
 - `calm-harbour-demo/` terapeutski sajt (US demo, engleski, noindex)
 
+- `breath-berlin/` (v2) i `breath-berlin-v1/` breathwork terapeut Berlin (EN demo, noindex)
+- `boat-buddyz/` mobilno održavanje brodova, Perth (EN demo, noindex)
+
 Dizajn svakog sajta: `design-log.md`.
